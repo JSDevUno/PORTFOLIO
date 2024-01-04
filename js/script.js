@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
     const scrolled = window.scrollY;
   
     if (scrolled) {
-      navi.style.borderBottom = '2px solid white';
+      navi.style.borderBottom = '1px solid white';
       navi.style.transition = '.3s';
     } else {
       navi.style.borderBottom = '2px solid transparent';
