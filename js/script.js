@@ -25,7 +25,7 @@ window.addEventListener('scroll', function() {
   });
 //FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
-const words = ["Jeevy Seguerra", "a Student", "a Developer", "an Editor"];
+const words = ["Jeevy Seguerra", "a Student", "a Developer", "a Freelancer", "an Editor"];
 
 let wordIndex = 0;
 let charIndex = 0;
