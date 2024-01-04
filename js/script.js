@@ -5,7 +5,8 @@ window.addEventListener('load', () => {
 });
  const logo = document.querySelector(".logo");
 
- logo.addEventListener('mouseover', ()=>{
+ logo.style.cursor="pointer";
+ logo.addEventListener('click', ()=>{
     logo.style.color="red";
     logo.style.transition=".3s";
  });
