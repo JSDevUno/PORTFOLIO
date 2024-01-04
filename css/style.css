@@ -74,6 +74,8 @@ nav ul li a{
   position: relative;
   margin: 25px;
   margin-right: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 nav ul li a::after{
   content:"";
@@ -190,6 +192,22 @@ h3{
   width: 100%;
   padding: 50px 0;
   background-color: #0c1821;
+}
+.skills p{
+  text-align: center  ;
+  width: 250px;
+  padding: 4px;
+  border-radius: 5px;
+  font-family: monospace;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 90px;
+  background-color: #fff;
+  color: #0c1821;
+  font-weight: bold;
+  font-size: 20px;
 }
 .skills h3{
   text-align: center  ;
