@@ -15,6 +15,7 @@ html{
   }
 body {
     background-color: rgb(243, 243, 243);
+    background-size: 100%;
   }
 /*================PRE LOADER================*/
 .preloader{
@@ -94,9 +95,12 @@ nav ul li a:hover::after{
   margin-left: 50px;
 }
 .body{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #1b2a41;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .current{
   border-bottom: 3px solid aliceblue;
@@ -163,6 +167,8 @@ h3{
 }
 /*================SKILLS================*/
 .skills{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(50, 74, 95)
+  ;
 }
