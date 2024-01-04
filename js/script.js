@@ -1,3 +1,4 @@
+//FOR PRE-LOADER
 const preloader = document.querySelector(".preloader");
 
 window.addEventListener('load', () => {
@@ -10,7 +11,19 @@ window.addEventListener('load', () => {
     logo.style.color="red";
     logo.style.transition=".3s";
  });
-
+//FOR NAVBAR
+window.addEventListener('scroll', function() {
+    const navi = document.querySelector('nav');
+    const scrolled = window.scrollY;
+  
+    if (scrolled) {
+      navi.style.borderBottom = '2px solid white';
+      navi.style.transition = '.3s';
+    } else {
+      navi.style.borderBottom = '2px solid transparent';
+    }
+  });
+//FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
 const words = ["Jeevy Seguerra", "a Student", "a Developer", "an Editor"];
 
@@ -38,7 +51,7 @@ const typeEffect = () => {
     }
 }
 typeEffect();
-
+//FOR TEXT WRITER
 const textArray = [
     "As a developer, I possess a unique balance, focusing ",
     "on both frontend and backend aspects in",
