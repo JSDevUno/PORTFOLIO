@@ -23,6 +23,14 @@ window.addEventListener('scroll', function() {
       navi.style.borderBottom = '2px solid transparent';
     }
   });
+  const sidenav = document.querySelector(".sidenav");
+
+  function opennav(){
+      sidenav.style.right = "0";
+  }
+  function closenav(){
+      sidenav.style.right = "-200px";
+  }
 //FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
 const words = ["Jeevy B. Seguerra", "a Student", "a Developer", "a Freelancer", "an Editor"];
