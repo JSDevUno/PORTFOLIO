@@ -77,7 +77,7 @@ const textArray = [
   window.onload = function() {
     typeWriter();
   };
-
+//FOR SKILLS WRITER
   const text = document.querySelector('.desc');
     const textContent = text.innerHTML;
     text.innerHTML = '';
