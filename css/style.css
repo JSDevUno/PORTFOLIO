@@ -209,6 +209,26 @@ h3{
   font-weight: bold;
   font-size: 20px;
 }
+.skills .desc{
+  text-align: center  ;
+  padding: 4px;
+  width: auto;
+  border-radius: 5px;
+  font-family: monospace;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  border-right: 2px solid transparent; 
+  white-space: nowrap; 
+  font-size: 20 px;
+  transition: transform 1s ease;
+}
 .skills h3{
   text-align: center  ;
   width: 80px;
@@ -238,6 +258,11 @@ h3{
   width: 100%;
   border-radius: 20px;
   box-sizing: border-box;
+  transition: transform .5s ease;
+  box-shadow: 5px 5px #1572a1;
+}
+.skills-list div:hover{
+  transform: rotate(360deg);
 }
 @media screen and (max-width: 1500px) {
   .skills-list {

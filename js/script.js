@@ -77,4 +77,20 @@ const textArray = [
   window.onload = function() {
     typeWriter();
   };
-  
+
+  const text = document.querySelector('.desc');
+    const textContent = text.innerHTML;
+    text.innerHTML = '';
+
+    let x = 0;
+    function type() {
+      if (x < textContent.length) {
+        text.innerHTML += textContent.charAt(x);
+        x++;
+        setTimeout(type, 70);
+      }
+    }
+
+    window.onscroll = function() {
+      type();
+    };
