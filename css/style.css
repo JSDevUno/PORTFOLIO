@@ -387,7 +387,7 @@ h3{
   .intro-text{
     position: absolute;
     left: 5%;
-    top: 1%;
+    top: 1px;
     margin-right: 40px;
   }
   .intro-text h3{
@@ -404,7 +404,7 @@ h3{
     font-size: 15px;
   }
   hr{
-    margin-right: 5px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 499px) and (min-height: 800px) {
