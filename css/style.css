@@ -453,6 +453,14 @@ h3{
     margin-right: 10px;
   }
 }
+@media screen and (max-width: 600px){
+  .face1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -260px;
+  }
+}
 @media screen and (max-width: 499px) and (min-height: 800px) {
   .face1 {
     display: flex;
