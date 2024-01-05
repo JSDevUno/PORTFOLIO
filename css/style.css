@@ -458,7 +458,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -260px;
+    margin-top: -200px;
   }
 }
 @media screen and (max-width: 499px) and (min-height: 800px) {
