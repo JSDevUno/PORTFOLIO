@@ -132,7 +132,7 @@ nav ul li a:hover::after{
   }
 }
 .face1 img{
-  width: 440px;
+  width: 450px;
   transition: .3s;
 }
 .face1 img:hover{
