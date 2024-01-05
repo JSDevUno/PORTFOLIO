@@ -424,7 +424,6 @@ h3{
   nav{
     padding: 6px 10px;
     background-color: transparent;
-    backdrop-filter: none;
   }
   nav ul .fas{
       position: absolute;
