@@ -260,9 +260,15 @@ h3{
   box-sizing: border-box;
   transition: transform .5s ease;
   box-shadow: 5px 5px #1572a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skills-list div:hover{
   transform: rotate(360deg);
+}
+.skills-list div img{
+  width: 70px;
 }
 @media screen and (max-width: 1500px) {
   .skills-list {
