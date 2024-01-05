@@ -420,7 +420,7 @@ h3{
   nav .fas{
     display: block;
     font-size: 25px;
-    color: aliceblue;
+    color: gray;
   }
   nav{
     padding: 6px 10px;
@@ -433,6 +433,14 @@ h3{
       left: 25px;
       cursor: pointer;
   }
+  nav ul .fa-regular{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    color: red;
+    font-size: 25px;
+}
   nav ul{
       background-color:#0c1821;
       position: fixed;
