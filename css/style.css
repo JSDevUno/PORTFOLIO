@@ -383,7 +383,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -180px;
+    margin-top: -175px;
   }
   .face1 img {
       max-width: 70%;
@@ -422,7 +422,7 @@ h3{
     color: aliceblue;
   }
   nav{
-    padding: 4px 10px;
+    padding: 6px 10px;
     background-color: transparent;
     backdrop-filter: none;
   }
@@ -458,7 +458,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -290px;
+    margin-top: -260px;
   }
   .face1 img {
       max-width: 80%;
