@@ -118,7 +118,6 @@ nav ul li a:hover::after{
   align-items: center;
   justify-content: center;
   right: 8%;
-  top: 9%;
   opacity: 0;
   animation: slideFromLeft 1s ease forwards;
 }
@@ -276,13 +275,71 @@ h3{
 }
 
 /*==========RESPONSIVENESS==========*/
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px){
   .skills-list {
     grid-template-columns: repeat(5, minmax(100px, 1fr));
     margin-left: 3%; 
     margin-right: 3%; 
   }
+  .face1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-text{
+    top: 10%;
+  }
+  .intro-text h3{
+    margin-top: 20px;
+    font-size: 33px;
+  }
+  .intro-text h3 img{
+    width: 33px;
+  }
+  .intro-text h1{
+    font-size: 33px;
+  }
+  .intro-text p{
+    font-size: 20px;
+  }
 }
+@media screen and (max-width: 1300px) {
+  .skills-list {
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    margin-left: 3%; 
+    margin-right: 3%; 
+  }
+  .face1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .face1 img {
+      max-width: 40%;
+      max-height: 100%; 
+      height: auto;
+    }
+  .intro-text{
+    position: absolute;
+    left: 10%;
+    top: -5%;
+  }
+  .intro-text h3{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .intro-text h3 img{
+    width: 50px;
+  }
+  .intro-text h1{
+    font-size: 20px;
+  }
+  .intro-text p{
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .skills-list {
     grid-template-columns: repeat(5, minmax(100px, 1fr));
@@ -327,8 +384,13 @@ h3{
       max-height: 90%; 
       height: auto;
     }
+  .intro-text{
+    position: absolute;
+    left: 5%;
+    margin-right: 40px;
+  }
   .intro-text h3{
-    margin-top: 390px;
+    margin-top: 360px;
     font-size: 20px;
   }
   .intro-text h3 img{
@@ -341,7 +403,7 @@ h3{
     font-size: 15px;
   }
   hr{
-    margin-right: 30px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 499px) and (min-height: 800px) {
@@ -368,6 +430,36 @@ h3{
   }
   .intro-text p{
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) and (min-height: 786px){
+  .intro-text h3{
+    margin-top: 490px;
+    font-size: 15px;
+  }
+  .intro-text h3 img{
+    width: 50px;
+  }
+  .intro-text h1{
+    font-size: 15px;
+  }
+  .intro-text p{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) and (min-height: 740px){
+  .intro-text h3{
+    margin-top: 450px;
+    font-size: 15px;
+  }
+  .intro-text h3 img{
+    width: 50px;
+  }
+  .intro-text h1{
+    font-size: 15px;
+  }
+  .intro-text p{
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 280px)and (min-height: 653px) {
