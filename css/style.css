@@ -112,7 +112,10 @@ nav ul li a:hover::after{
 .current{
   border-bottom: 3px solid aliceblue;
 }
-nav .fas{
+nav .fa-sharp{
+  display: none;
+}
+nav .fa-regular{
   display: none;
 }
 /*================FACE================*/
@@ -417,7 +420,7 @@ h3{
     margin-left: 10px;
     font-size: 25px;
   }
-  nav .fas{
+  nav .fa-sharp{
     display: block;
     font-size: 25px;
     color: gray;
@@ -427,7 +430,7 @@ h3{
     background-color: transparent;
     backdrop-filter: none;
   }
-  nav ul .fas{
+  nav ul .fa-sharp{
       position: absolute;
       top: 25px;
       left: 25px;
@@ -457,7 +460,9 @@ h3{
       align-items: center;
       flex-direction: column;
   }
-  
+  nav .fa-regular{
+    display: block;
+  }
   nav .fa-bars{
     margin-right: 10px;
   }
