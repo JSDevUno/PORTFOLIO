@@ -141,6 +141,11 @@ nav .fa-regular{
 .face1 img{
   width: 450px;
   transition: .3s;
+  display: none;
+
+}
+.face1 img.active {
+  display: block;
 }
 .face1 img:hover{
   transform: scale(1.1);

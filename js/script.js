@@ -31,6 +31,17 @@ window.addEventListener('scroll', function() {
   function closenav(){
       sidenav.style.right = "-200px";
   }
+//FOR FACE GLITCH ANIMATION
+  const images = document.querySelectorAll('.face1 img');
+  let currentIndex = 0;
+  
+  function showNextImage() {
+    images[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.add('active');
+  }
+  
+  setInterval(showNextImage, 100);
 //FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
 const words = ["Jeevy B. Seguerra", "a Student", "a Developer", "a Freelancer", "an Editor"];
