@@ -32,16 +32,29 @@ window.addEventListener('scroll', function() {
       sidenav.style.right = "-200px";
   }
 //FOR FACE GLITCH ANIMATION
-  const images = document.querySelectorAll('.face1 img');
-  let currentIndex = 0;
-  
-  function showNextImage() {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('active');
+const images = document.querySelectorAll('.face1 img');
+let currentIndex = 0;
+let slideshowInterval;
+
+function showNextImage() {
+  images[currentIndex].classList.remove('active');
+  currentIndex = (currentIndex + 1) % images.length;
+  images[currentIndex].classList.add('active');
+
+  if (currentIndex === 0) {
+    clearInterval(slideshowInterval);
+    setTimeout(() => {
+      startSlideshow(); 
+    }, 2000);
   }
-  
-  setInterval(showNextImage, 100);
+}
+function startSlideshow() {
+  slideshowInterval = setInterval(showNextImage, 100); 
+}
+setTimeout(() => {
+  startSlideshow(); 
+}, 2000);
+
 //FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
 const words = ["Jeevy B. Seguerra", "a Student", "a Developer", "a Freelancer", "an Editor"];
