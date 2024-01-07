@@ -19,6 +19,7 @@ window.addEventListener('scroll', function() {
     if (scrolled) {
       navi.style.borderBottom = '1px solid white';
       navi.style.transition = '.3s';
+      navi.style.backdropFilter = 'blur(5px)';
     } else {
       navi.style.borderBottom = '2px solid transparent';
     }
