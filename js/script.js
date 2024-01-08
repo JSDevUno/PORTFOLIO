@@ -22,6 +22,7 @@ window.addEventListener('scroll', function() {
       navi.style.backdropFilter = 'blur(5px)';
     } else {
       navi.style.borderBottom = '2px solid transparent';
+      navi.style.backdropFilter = 'none';
     }
   });
   const sidenav = document.querySelector(".sidenav");
