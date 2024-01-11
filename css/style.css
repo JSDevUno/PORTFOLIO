@@ -288,32 +288,25 @@ h3{
 
 /*==========CONTACT==========*/
 .contact{
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 .contact-links{
-  background-color: red;
   padding: 20px;
 }
 .contact-form{
   padding: 20px;
-  background-color: yellow;
   padding: 20px;
 }
-.form-row{
-  margin-right: 30px;
-}
 .form-control{  
-  width: 230px;
+  width: 100%;
   border-radius: 50px;
+  padding: 20px;
 }
 .form-control1{
-  display: block;
   width: 100%;
   padding: 10px;
   border-radius: 20px;
