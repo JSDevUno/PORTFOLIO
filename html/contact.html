@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/icon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Portfolio | Contact.</title>
@@ -30,32 +30,38 @@
                 <i class="fa-sharp fa-solid fa-bars fa-beat" onclick="opennav()"></i>
             </nav>
             <div class="container contact">
-                <div class="row">
-                  <div class="contact-links col-md-4">
+                  <div class="contact-links">
                     <h1>CONTACT ME:</h1>
+                    <div class="cont">
+                      <i class="fa-solid fa-envelope fa-bounce"></i>
+                      <h3>jeevyseguerra9@gmail.com</h3>
+                    </div>
+                    <div class="cont">
+                      <i class="fa-solid fa-phone fa-shake"></i>
+                      <h3>(+63)9976944805</h3>
+                    </div>
                   </div>
                   <form class="contactform" action="https://formsubmit.co/peterdonniel4444@gmail.com" method="POST">
-                  <div class="contact-form col-md-8">
+                  <div class="contact-form">
                     <div class="form-row">
-                      <div class="form-group col-md-4">
+                      <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Enter your name">
                       </div>
-                      <div class="form-group col-md-4">
+                      <div class="form-group">
                         <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
                       </div>
-                      <div class="form-group col-md-4">
+                      <div class="form-group">
                         <input type="email" class="form-control" id="email" placeholder="Enter your email">
                       </div>
                     </div>
                     <div class="form-group">
-                      <textarea class="form-control1" rows="5" cols="100" id="message" placeholder="Enter your message"></textarea>
+                      <textarea class="form-control1" rows="6" cols="100" id="message" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="form-group">
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="submit" class="btn"><span>SEND MESSAGE</span><span class="plane"><i class="fa-solid fa-paper-plane"></i></span></button>
                     </div>
                   </div>
                 </form>
-                </div>
               </div>
         </div>
         <script src="/js/script.js"></script>
