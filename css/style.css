@@ -381,6 +381,24 @@ h3{
 .fa-paper-plane{
   color: white;
 }
+.link-icons{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.fa-brands{
+  font-size: 25px;
+  color: aliceblue;
+  padding: 13px;
+  background-color: #0c1821;
+  border-radius: 50%;
+  transition: .3s;
+}
+.fa-brands:hover{
+  background-color: red;
+}
 /*==========RESPONSIVENESS==========*/
 @media screen and (max-width: 1600px){
   .skills-list {
