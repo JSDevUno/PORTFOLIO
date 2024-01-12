@@ -753,6 +753,40 @@ h3{
   .link-icons{
     margin-top: -10px;
   }
+  .personal{
+    flex-direction: column;
+  }
+  .list1 p{
+    font-size: 15px;
+  }
+  .list1 img{
+    margin-left: 13%;
+  }
+  .personal .info{
+    width: 135%;
+    margin-left: -15%;
+  }
+  .description{
+    margin-left: -13%;
+    margin-top: 10%;
+  }
+  .description .desc p{
+    width: 160%;
+    font-size: 12px;
+  }
+  .info{
+    display: block;
+    margin-top: -30%;
+  }
+  .educ{
+    flex-direction: column;
+  }
+  .list2 h2{
+    margin-top: 150%;
+  }
+  .educ div{
+    width: 160%;
+  }
 }
 @media screen and (max-width: 499px) and (min-height: 800px) {
   .face1 {
@@ -793,6 +827,34 @@ h3{
   }
   .intro-text p{
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) and (min-height: 667px){
+  .personal .info{
+    width: 135%;
+    margin-left: -13%;
+  }
+  .description{
+    margin-left: -13%;
+    margin-top: 10%;
+  }
+  .description .desc p{
+    width: 160%;
+    font-size: 12px;
+    margin-top: 100%;
+  }
+  .info{
+    display: block;
+    margin-top: -30%;
+  }
+  .educ{
+    flex-direction: column;
+  }
+  .list2 h2{
+    margin-top: 200%;
+  }
+  .educ div{
+    width: 160%;
   }
 }
 @media screen and (max-width: 360px) and (min-height: 740px){
