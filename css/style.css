@@ -567,9 +567,9 @@ h3{
   nav ul .fa-regular{
     position: absolute;
     top: 25px;
-    left: 25px;
+    left: 150px;
     cursor: pointer;
-    color: red;
+    color: gray;
     font-size: 25px;
 }
   nav ul{
