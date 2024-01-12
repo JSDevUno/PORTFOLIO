@@ -504,7 +504,7 @@ h3{
 }
 @media screen and (max-width: 768px) {
   .body{
-    height: 110vh;
+    height: 115vh;
   }
   .skills-list {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) ;
@@ -601,7 +601,7 @@ h3{
   .contact{
     flex-direction: column;
     width: 100%;
-    top: 60%;
+    top: 65%;
   }
   .contact-links{
     width: 100%;
