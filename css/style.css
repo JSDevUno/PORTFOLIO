@@ -296,6 +296,7 @@ h3{
   left: 50%;
   transform: translate(-50%,-50%);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 5px 5px #324a5f;
 }
 .contact{
   width: 60%;
