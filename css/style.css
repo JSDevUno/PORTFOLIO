@@ -287,10 +287,20 @@ h3{
 }
 
 /*==========CONTACT==========*/
+.talk p{
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .contact{
   width: 60%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
   display: flex;
@@ -365,6 +375,8 @@ h3{
 .cont h3{
   color: aliceblue;
   font-family: 'Courier New', Courier;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 .contact-links h1{
   margin-bottom: 20px;
