@@ -863,6 +863,9 @@ h3{
     font-size: 12px;
     margin-top: 100%;
   }
+  .list2 h2{
+    margin-top: 100%;
+  }
 }
 @media screen and (max-width: 360px) and (min-height: 640px){
   .description .desc p{
