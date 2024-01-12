@@ -512,8 +512,15 @@ h3{
 .educ div p{
   font-size: 12px;
   padding: 20px;
+  padding-top: 0px;
   color: aliceblue;
   font-family: 'Courier New', Courier, monospace;
+}
+.fa-school{
+  padding: 10px;
+  margin-left: 80%;
+  font-size: 20px;
+  color: red;
 }
 /*==========RESPONSIVENESS==========*/
 @media screen and (max-width: 1600px){
