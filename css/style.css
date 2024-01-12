@@ -857,6 +857,26 @@ h3{
     width: 160%;
   }
 }
+@media screen and (max-width: 360px) and (min-height: 640px){
+  .description .desc p{
+    width: 160%;
+    font-size: 12px;
+    margin-top: 120%;
+  }
+  .info{
+    display: block;
+    margin-top: -30%;
+  }
+  .educ{
+    flex-direction: column;
+  }
+  .list2 h2{
+    margin-top: 230%;
+  }
+  .educ div{
+    width: 160%;
+  }
+}
 @media screen and (max-width: 360px) and (min-height: 740px){
   .intro-text h3{
     margin-top: 450px;
@@ -870,6 +890,13 @@ h3{
   }
   .intro-text p{
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 393px) and (min-height: 786px){
+  .description .desc p{
+    width: 160%;
+    font-size: 12px;
+    margin-top: 60%;
   }
 }
 @media screen and (max-width: 280px)and (min-height: 653px) {
