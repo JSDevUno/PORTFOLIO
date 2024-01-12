@@ -14,7 +14,7 @@ html{
     font-family: var(--headings-font);
   }
 body {
-    background-color: rgb(243, 243, 243);
+    background-color: #0e1216;
     background-size: 100%;
   }
 /*================PRE-LOADER================*/
