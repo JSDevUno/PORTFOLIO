@@ -504,7 +504,7 @@ h3{
 }
 @media screen and (max-width: 768px) {
   .body{
-    height: 115vh;
+    height: 110vh;
   }
   .skills-list {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) ;
