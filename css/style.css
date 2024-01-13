@@ -288,16 +288,19 @@ h3{
 }
 /*==========PROJECTS==========*/
 #projects {
+  position: relative;
+  top: 21%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px; 
   margin-left: 400px;
   margin-right: 400px;
+  padding-bottom: 5%;
 }
 
 #projects div{
   background-color: lightblue;
-  height: 150px; 
+  height: 200px; 
   padding: 20px 10px;
   width: 100%;
   border-radius: 20px;
