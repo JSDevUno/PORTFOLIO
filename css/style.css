@@ -361,6 +361,16 @@ h3{
 #projects .child .child3:hover{
   transform: scale(1.9);
 }
+#projects .child .child5{
+  background-image: url(/img/ecommerce.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+#projects .child .child5:hover{
+  transform: scale(1.9);
+}
 /*==========CONTACT==========*/
 .talk p{
   color: white;
