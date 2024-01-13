@@ -339,7 +339,27 @@ h3{
   transition: .3s;
 }
 #projects .child .child1:hover{
-transform: scale(1.9);
+  transform: scale(1.9);
+}
+#projects .child .child2{
+  background-image: url(/img/nexus.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+#projects .child .child2:hover{
+  transform: scale(1.9);
+}
+#projects .child .child3{
+  background-image: url(/img/coffee.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+#projects .child .child3:hover{
+  transform: scale(1.9);
 }
 /*==========CONTACT==========*/
 .talk p{
