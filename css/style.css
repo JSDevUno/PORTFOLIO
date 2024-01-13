@@ -773,6 +773,7 @@ h3{
   .description .desc p{
     width: 160%;
     font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .info{
     display: block;
