@@ -314,7 +314,7 @@ h3{
 #projects .child div{
   height: 100%;
   width: 50%;
-  background-color: red;
+  background-color: #0c1821;
   margin: 2px;
   border-radius: 10px;
 }
@@ -325,6 +325,23 @@ h3{
 }
 #projects .child div:nth-child(1){
   background-color: transparent;
+}
+#projects .child div p{
+  color: aliceblue;
+  font-size: 12px;
+  padding: 10px;
+  text-align: justify;
+  text-indent: 20px;
+}
+#projects .child .child1 {
+  background-image: url(/img/huffman.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+#projects .child .child1:hover{
+transform: scale(1.9);
 }
 /*==========CONTACT==========*/
 .talk p{
