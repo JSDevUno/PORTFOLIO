@@ -316,6 +316,15 @@ h3{
   width: 50%;
   background-color: red;
   margin: 2px;
+  border-radius: 10px;
+}
+#projects .child div h4{
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+#projects .child div:nth-child(1){
+  background-color: transparent;
 }
 /*==========CONTACT==========*/
 .talk p{
