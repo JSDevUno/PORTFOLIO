@@ -551,7 +551,7 @@ h3{
   margin-top: 35px;
 }
 .list1 h2{
-  margin-top: 18px;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-family:Arial, Helvetica, sans-serif;
   color: aliceblue;
@@ -563,9 +563,10 @@ h3{
   color: aliceblue;
 }
 .list1 img{
-  width: 200px;
+  width: 300px;
   margin-left: 5%;
-  margin-top: -40px;
+  margin-top: -20px;
+  border-radius: 50%;
 }
 .list2{
   width: 100%;
@@ -865,7 +866,7 @@ h3{
     font-size: 15px;
   }
   .list1 img{
-    margin-left: 13%;
+    margin-left: 0%;
   }
   .personal .info{
     width: 135%;
