@@ -286,7 +286,28 @@ h3{
 .skills-list div img{
   width: 70px;
 }
+/*==========PROJECTS==========*/
+#projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; 
+  margin-left: 400px;
+  margin-right: 400px;
+}
 
+#projects div{
+  background-color: lightblue;
+  height: 150px; 
+  padding: 20px 10px;
+  width: 100%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  transition: transform .5s ease;
+  box-shadow: 5px 5px #1572a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*==========CONTACT==========*/
 .talk p{
   color: white;
