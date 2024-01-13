@@ -298,18 +298,24 @@ h3{
   padding-bottom: 5%;
 }
 
-#projects div{
+#projects .child{
   background-color: #1b2a41;
-  height: 200px; 
-  padding: 20px 10px;
+  height: 300px; 
+  padding: 10px;
   width: 100%;
-  border-radius: 20px;
   box-sizing: border-box;
   transition: transform .5s ease;
-  box-shadow: 5px 5px #1572a1;
+  box-shadow: 8px 8px #1572a1;
   display: flex;
   align-items: center;
   justify-content: center;
+  display: flex;
+}
+#projects .child div{
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  margin: 2px;
 }
 /*==========CONTACT==========*/
 .talk p{
