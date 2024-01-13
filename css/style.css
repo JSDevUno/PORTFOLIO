@@ -403,6 +403,7 @@ h3{
   font-family: 'Courier New', Courier;
   overflow: hidden;
   word-wrap: break-word;
+  font-size: 18px;
 }
 .contact-links h1{
   margin-bottom: 20px;
