@@ -894,6 +894,112 @@ h3{
   .educ div{
     width: 160%;
   }
+
+  #projects {
+    position: relative;
+    top: 21%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 40px; 
+    margin-left: 1px;
+    margin-right: 400px;
+    padding-bottom: 5%;
+  }
+  
+  #projects .child{
+    background-color: #1b2a41;
+    height: 300px; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform .5s ease;
+    box-shadow: 8px 8px #1572a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #projects .child div{
+    height: 100%;
+    width: 50%;
+    background-color: #0c1821;
+    margin: 2px;
+    border-radius: 10px;
+  }
+  #projects .child div h4{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #projects .child div:nth-child(1){
+    background-color: transparent;
+  }
+  #projects .child div p{
+    color: aliceblue;
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+  }
+  #projects .child .child1 {
+    background-image: url(/img/huffman.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child1:hover{
+    transform: scale(1.9);
+  }
+  #projects .child .child2{
+    background-image: url(/img/nexus.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child2:hover{
+    transform: scale(1.9);
+  }
+  #projects .child .child3{
+    background-image: url(/img/coffee.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child3:hover{
+    transform: scale(1.9);
+  }
+  #projects .child .child4{
+    background-image: url(/img/book.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child4:hover{
+    transform: scale(1.9);
+  }
+  #projects .child .child5{
+    background-image: url(/img/ecommerce.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child5:hover{
+    transform: scale(1.9);
+  }
+  #projects .child .child6{
+    background-image: url(/img/port.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+  }
+  #projects .child .child6:hover{
+    transform: scale(1.9);
+  }
 }
 @media screen and (max-width: 499px) and (min-height: 800px) {
   .face1 {
