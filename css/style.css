@@ -291,8 +291,9 @@ h3{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px; 
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 1000px; 
   padding-bottom: 5%;
 }
 
@@ -901,7 +902,8 @@ h3{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 40px; 
-    margin-left: 10px;
+    width: 27%;
+    margin-left: 2%;
     margin-right: 400px;
     padding-bottom: 5%;
   }
