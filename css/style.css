@@ -519,6 +519,13 @@ h3{
 .fa-brands:hover{
   background-color: red;
 }
+.error {
+  color: red;
+}
+
+.invalid-input {
+  border: 1px solid red;
+}
 /*==========ABOUT ME==========*/
 .meet p{
   top: 13%;
@@ -1144,11 +1151,4 @@ h3{
   .intro-text p{
     font-size: 15px;
   }
-}
-.error {
-  color: red;
-}
-
-.invalid-input {
-  border: 1px solid red;
 }
