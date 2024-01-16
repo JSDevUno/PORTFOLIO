@@ -130,7 +130,6 @@ const textArray = [
     };
 //FORM VALIDATION
 function validateForm() {
-  // Reset error messages and styles
   document.getElementById('name').classList.remove('invalid-input');
   document.getElementById('subject').classList.remove('invalid-input');
   document.getElementById('email').classList.remove('invalid-input');
@@ -161,6 +160,5 @@ function validateForm() {
       document.getElementById('message').classList.add('invalid-input');
       return false;
   }
-
   return true;
 }
