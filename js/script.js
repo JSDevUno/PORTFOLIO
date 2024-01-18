@@ -55,7 +55,7 @@ function startSlideshow() {
 }
 setTimeout(() => {
   startSlideshow(); 
-}, 2000);
+}, 1  000);
 
 //FOR TEXT REPEAT
 const dynamicText = document.querySelector("h1 span");
