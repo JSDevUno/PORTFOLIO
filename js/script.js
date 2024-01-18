@@ -162,3 +162,27 @@ function validateForm() {
   }
   return true;
 }
+//LIGHTBOX GALLERY
+function lightbox(imagePath) {
+  
+  var overlay = document.createElement("div");
+  overlay.className = "lightbox-overlay";
+
+  var container = document.createElement("div");
+  container.className = "lightbox-container";
+
+  var image = document.createElement("img");
+  image.src = imagePath;
+  image.alt = "Lightbox Image";
+  image.className = "lightbox-image";
+
+  container.appendChild(image);
+  overlay.appendChild(container);
+  document.body.appendChild(overlay);
+
+  overlay.style.display = "flex";
+
+  overlay.onclick = function() {
+      overlay.style.display = "none";
+  };
+}
