@@ -335,6 +335,7 @@ h3{
 #projects .child div:nth-child(2):hover{
   transform: scale(1.5);
   transition: .3s;
+  cursor: pointer;
 }
 /*==========CONTACT==========*/
 .talk p{
