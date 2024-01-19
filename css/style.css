@@ -376,6 +376,7 @@ h3{
   background-color:#1b2a41;
   width: 31%;
   border-radius: 10px;
+  animation: fade-right .8s;
 }
 .contact-form{
   padding: 20px;
@@ -386,6 +387,7 @@ h3{
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+  animation: fade-down .8s;
 }
 .form-control{  
   width: 100%;
@@ -407,6 +409,7 @@ h3{
   background-color: #1b2a41;
   color: white;
   font-size: 16px;
+  animation: fade-up .8s;
 }
 .btn{
   padding: 10px;
@@ -417,6 +420,7 @@ h3{
   background-color: transparent;
   color: white;
   border: 2px solid red;
+  animation: fade-up .8s;
 }
 .btn:hover{
   transform: translateY(5px);
