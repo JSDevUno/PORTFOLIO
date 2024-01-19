@@ -310,6 +310,18 @@ h3{
   justify-content: center;
   display: flex;
 }
+#projects .child:nth-child(even){
+  animation: fade-left .9s;
+}
+@keyframes fade-left {
+  0%{opacity: 0; transform: translateX(60px);}
+}
+#projects .child:nth-child(odd){
+  animation: fade-right .9s;
+}
+@keyframes fade-right {
+  0%{opacity: 0; transform: translateX(-60px);}
+}
 #projects .child div{
   height: 100%;
   width: 50%;
