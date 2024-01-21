@@ -130,6 +130,9 @@ const textArray = [
     };
 //FORM VALIDATION
 function validateForm() {
+  function hasValue(value) {
+    return value.trim() !== '';
+  }
   document.getElementById('name').classList.remove('invalid-input');
   document.getElementById('subject').classList.remove('invalid-input');
   document.getElementById('email').classList.remove('invalid-input');
@@ -139,28 +142,29 @@ function validateForm() {
   var subject = document.getElementById('subject').value;
   var email = document.getElementById('email').value;
   var message = document.getElementById('message').value;
-  if (name === '') {
-      alert('Please enter your name');
-      document.getElementById('name').classList.add('invalid-input');
-      return false;
+
+  if (!hasValue(name)) {
+    alert('Please enter your name');
+    document.getElementById('name').classList.add('invalid-input');
+    return false;
   }
-  if (subject === '') {
-      alert('Please enter the subject');
-      document.getElementById('subject').classList.add('invalid-input');
-      return false;
+  if (!hasValue(subject)) {
+    alert('Please enter the subject');
+    document.getElementById('subject').classList.add('invalid-input');
+    return false;
   }
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-      alert('Please enter a valid email address');
-      document.getElementById('email').classList.add('invalid-input');
-      return false;
+  if (!hasValue(email) || !emailRegex.test(email)) {
+    alert('Please enter a valid email address');
+    document.getElementById('email').classList.add('invalid-input');
+    return false;
   }
-  if (message === '') {
-      alert('Please enter your message');
-      document.getElementById('message').classList.add('invalid-input');
-      return false;
+  if (!hasValue(message)) {
+    alert('Please enter your message');
+    document.getElementById('message').classList.add('invalid-input');
+    return false;
   }
-  return true;
+  return false;
 }
 //LIGHTBOX GALLERY
 function lightbox(imagePath) {
@@ -186,3 +190,21 @@ function lightbox(imagePath) {
       overlay.style.display = "none";
   };
 }
+//SENDING EMAIL
+function sendEmail() {
+  var params = {
+    from_name: document.getElementById("name").value,
+    subject: document.getElementById("subject").value,
+    email_id: document.getElementById("email").value,
+    message: document.getElementById("message").value
+  };
+
+  emailjs.send("service_ro0ruqj", "template_apcvq7y", params)
+    .then(function(res) {
+      alert("Sent Successfully! Status: " + res.status);
+    })
+    .catch(function(error) {
+      console.error("Email sending failed:", error);
+    });
+}
+

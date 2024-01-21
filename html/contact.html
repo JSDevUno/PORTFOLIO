@@ -50,7 +50,7 @@
                         <div><a href="discordapp.com/users/827711676706717717"><i class="fa-brands fa-discord"></i></a></div>
                       </div>
                   </div>
-                  <form class="contactform" action="#" method="POST" onsubmit="return validateForm()">
+                  <form class="contactform" id="contactForm" onsubmit="return validateForm()">
                     <div class="contact-form">
                         <div class="form-row">
                             <div class="form-group">
@@ -67,7 +67,7 @@
                             <textarea class="form-control1" rows="6" cols="100" id="message" placeholder="Enter your message"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn"><span>SEND MESSAGE</span><span class="plane"><i class="fa-solid fa-paper-plane"></i></span></button>
+                            <button type="submit" class="btn" onclick="sendEmail()"><span>SEND MESSAGE</span><span class="plane"><i class="fa-solid fa-paper-plane"></i></span></button>
                         </div>
                     </div>
                 </form>
@@ -77,5 +77,11 @@
             <p>&copy; 2024 Jeevy B. Seguerra. All rights reserved. | Designed by JBS</p>
         </footer> 
         <script src="/js/script.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("11t2_yeUzJEXDF_us");
+            })();
+        </script>
 </body>
 </html>
