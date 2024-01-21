@@ -1,8 +1,5 @@
 :root {
-  --headings-font: "Roboto", sans-serif;
-  --primary-color: #1b2a41;
-  --all-around: rgb(243, 243, 243);
-  --dark-color: rgb(46, 46, 46);
+  --mainColor: #1b2a41;
 }
 html{
     scroll-behavior: smooth;
@@ -11,7 +8,7 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--headings-font);
+    font-family: "Roboto", sans-serif;
   }
 body {
     background-color: #0e1216;
@@ -34,7 +31,7 @@ body {
 .preloader > div:nth-child(1){
     width: 4rem;
     height: 4rem;
-    border: 9px solid var(--primary-color);
+    border: 9px solid var(--mainColor);
     border-radius: 50%;
     border-top-color: white;
     animation: spin 1s ease-in-out infinite;
@@ -43,7 +40,7 @@ body {
     margin-top: 3rem;
     font-size: 2rem;
     font-weight: 400;
-    color: var(--primary-color);
+    color: var(--mainColor);
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 2px;
   }
