@@ -129,7 +129,7 @@ const textArray = [
       type();
     };
 //FORM VALIDATION
-function validateForm() {
+function validate() {
   function hasValue(value) {
     return value.trim() !== '';
   }
