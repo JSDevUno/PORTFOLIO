@@ -643,6 +643,133 @@ h3{
   }
 }
 @media screen and (max-width: 1300px) {
+  .personal{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  }
+  .personal .info{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+  }
+  .personal .cert{
+    width: 70%;
+    height: 100%;
+  }
+  .info .list1{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 35px;
+    animation: fade-right .9s;
+  }
+  @keyframes fade-right {
+    0%{opacity: 0; transform: translateX(-60px);}
+    100%{opacity: 1; transform: translateX(0px);}
+  }
+  .list1 h2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+  }
+  .list1 p{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+  }
+  .list1 img{
+    width: 300px;
+    margin-left: 5%;
+    margin-top: -20px;
+    border-radius: 50%;
+  }
+  .list2{
+    width: 100%;
+    height: 50%;
+  }
+  .school{
+    margin-top: -40px;
+  }
+  .list2 h2{
+    padding: 11px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    animation: fade-right .9s;
+  }
+  .description .desc p{
+    color: aliceblue;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 30px;
+    padding: 20px;
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: #0c1821;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s;
+    animation: fade-down .9s;
+  }
+  @keyframes fade-down {
+    0%{opacity: 0; transform: translateY(-60px);}
+    100%{opacity: 1; transform: translateY(0px);}
+  }
+  .description .desc p:hover{
+    border: 1px solid red;
+    transform: translateY(-5px);
+  }
+  .list2 .educ{
+    display: flex;
+  }
+  .educ div{
+    width: calc(100% / 3);
+    height: 200px;
+    margin: 20px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    background-color: #0c1821;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+    animation: fade-up .9s;
+    overflow: auto;
+  }
+  @keyframes fade-up {
+    0%{opacity: 0; transform: translateY(60px);}
+    100%{opacity: 1; transform: translateY(0px);}
+  }
+  .educ div:hover{
+    border: 1px solid red;
+    transform: scale(1.1);
+  }
+  .educ div p{
+    font-size: 12px;
+    padding: 20px;
+    padding-top: 0px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .fa-school{
+    padding: 10px;
+    margin-left: 82%;
+    font-size: 20px;
+    color: red;
+  }
   .skills-list {
     grid-template-columns: repeat(5, minmax(100px, 1fr));
     margin-left: 3%; 
@@ -655,14 +782,16 @@ h3{
     margin-top: 50px;
   }
   .face1 img {
-      max-width: 40%;
+      max-width: 70%;
       max-height: 100%; 
       height: auto;
-    }
+      margin-right: -50px;
+      margin-top: -90px;
+  }
   .intro-text{
     position: absolute;
-    left: 10%;
-    top: -5%;
+    left: 5%;
+    top: 5%;
   }
   .intro-text h3{
     margin-top: 20px;
