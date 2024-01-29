@@ -583,12 +583,14 @@ h3{
   width: calc(100% / 3);
   height: 200px;
   margin: 20px;
+  margin-top: 15px;
   border: 1px solid gray;
   background-color: #0c1821;
   border-radius: 10px;
   transition: .3s;
   cursor: pointer;
   animation: fade-up .9s;
+  overflow: auto;
 }
 @keyframes fade-up {
   0%{opacity: 0; transform: translateY(60px);}
