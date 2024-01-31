@@ -161,6 +161,7 @@ nav ul li a:hover::after{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
 }
 .current{
   border-bottom: 3px solid aliceblue;
