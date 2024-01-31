@@ -388,6 +388,7 @@ h3{
 }
 #projects .child div:nth-child(1){
   background-color: transparent;
+  overflow-y:auto;
 }
 #projects .child div p{
   color: aliceblue;
@@ -1158,7 +1159,7 @@ h3{
   }
   #projects .child div:nth-child(1){
     background-color: transparent;
-    overflow: scroll;
+    overflow-y: scroll;
   }
   #projects .child div p{
     color: aliceblue;
