@@ -1121,7 +1121,6 @@ h3{
   .educ div{
     width: 160%;
   }
-
   #projects {
     position: relative;
     top: 15%;
@@ -1133,7 +1132,6 @@ h3{
     margin-right: 400px;
     padding-bottom: 5%;
   }
-  
   #projects .child{
     background-color: #1b2a41;
     height: 300px; 
@@ -1348,4 +1346,5 @@ h3{
 }
 .copyright p{
   text-align: center;
+  margin-top: 50px;
 }
